@@ -8,6 +8,7 @@ import java.util.Map;
  **/
 
 public class Child  extends Base{
+    //子类重载父类方法时，方法的入参要求要比父类低
     public void method(Map map){
         System.out.println("Child map is running");
     }
