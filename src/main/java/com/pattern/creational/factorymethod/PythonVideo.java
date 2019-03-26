@@ -7,7 +7,7 @@ package com.pattern.creational.factorymethod;
 
 public class PythonVideo extends Video{
     public void produce() {
-        System.out.println("Python Course Product");
+        System.out.println("Python CourseFactory Product");
 
     }
 

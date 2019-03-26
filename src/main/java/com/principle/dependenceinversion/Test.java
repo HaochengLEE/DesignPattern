@@ -17,14 +17,14 @@ public class Test {
 //    v2.0
 //    public static void main(String[] args) {
 //        Watson watson=new Watson();
-//        watson.studyCourse(new JavaCourse());
+//        watson.studyCourse(new JavaCourseFactory());
 //        watson.studyCourse(new PythonCourse());
 //
 //    }
 
 //    v3.0
 //    public static void main(String[] args) {
-//        Watson watson=new Watson(new JavaCourse());
+//        Watson watson=new Watson(new JavaCourseFactory());
 //        watson.studyCourse();
 //        Watson watson1=new Watson(new PythonCourse());
 //        watson1.studyCourse();

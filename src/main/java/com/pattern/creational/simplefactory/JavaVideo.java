@@ -8,7 +8,7 @@ package com.pattern.creational.simplefactory;
 public class JavaVideo extends Video {
 
     public void produce() {
-        System.out.println("Java Course Product");
+        System.out.println("Java CourseFactory Product");
 
     }
 }
