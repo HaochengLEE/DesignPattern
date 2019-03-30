@@ -7,10 +7,11 @@ package com.pattern.creational.singleton;
 
 public class LazySingleton {
 
+    private static LazySingleton lazySingleton=null;
     private LazySingleton(){
 
     }
-    private static LazySingleton lazySingleton=null;
+
 
     public synchronized static LazySingleton getInstance(){
         if(lazySingleton==null){
