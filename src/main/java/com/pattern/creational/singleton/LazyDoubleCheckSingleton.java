@@ -7,7 +7,7 @@ package com.pattern.creational.singleton;
 
 public class LazyDoubleCheckSingleton {
 
-    private static LazyDoubleCheckSingleton lazyDoubleCheckSingleton=null;
+    private volatile static LazyDoubleCheckSingleton lazyDoubleCheckSingleton=null;
     private LazyDoubleCheckSingleton(){
 
     }
