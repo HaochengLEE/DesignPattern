@@ -5,8 +5,11 @@ package com.pattern.creational.singleton;
  * @create 2019-03-30 23:54
  **/
 
+//双重检测实现单例模式
 public class LazyDoubleCheckSingleton {
 
+    //volatile 关键字用于禁止指令重排序，防止 layDoubleCheckSingleton 被其他线程使用
+    //不过，只有很低版本的 JDK 才会有这个问题，高版本中将 new 操作设计为原子操作
     private volatile static LazyDoubleCheckSingleton lazyDoubleCheckSingleton=null;
     private LazyDoubleCheckSingleton(){
 

@@ -5,6 +5,7 @@ package com.pattern.creational.singleton;
  * @create 2019-03-28 23:36
  **/
 
+//懒汉式实现单例模式
 public class LazySingleton {
 
     private static LazySingleton lazySingleton=null;

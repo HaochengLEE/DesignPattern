@@ -5,9 +5,10 @@ package com.pattern.creational.singleton;
  * @create 2019-04-01 00:14
  **/
 
+//静态内部类实现单例模式
 public class StaticInnerClassSingleton {
     private static class InnerClass{
-        private static StaticInnerClassSingleton staticInnerClassSingleton=new StaticInnerClassSingleton();
+        private static final StaticInnerClassSingleton staticInnerClassSingleton=new StaticInnerClassSingleton();
 
     }
 

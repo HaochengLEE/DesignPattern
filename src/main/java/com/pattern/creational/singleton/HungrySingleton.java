@@ -5,6 +5,7 @@ package com.pattern.creational.singleton;
  * @create 2019-04-01 23:38
  **/
 
+//饿汉式实现单例模式
 public class HungrySingleton {
     private final static HungrySingleton hungrysingleton;
     static {
